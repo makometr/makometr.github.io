@@ -1,2 +1,4 @@
 theme: jekyll-theme-leap-day
 title: [Title of my site]
+github:
+  is_project_page: false
