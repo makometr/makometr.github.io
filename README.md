@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-[Markdown](ads_2.md) is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for [Markdown](ads_2.md)
 
 ```markdown
 Syntax highlighted code block
