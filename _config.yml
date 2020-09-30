@@ -1,4 +1,6 @@
 theme: jekyll-theme-leap-day
-title: [Title of my site]
+title: [АиСД - моэвм] 
+description: [Варианты заданий и заметки по курсу]
 github:
   is_project_page: false
+show_downloads: ["false"]
