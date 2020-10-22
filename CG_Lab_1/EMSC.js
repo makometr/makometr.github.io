@@ -193,7 +193,7 @@ Module['FS_createPath']('/resources', 'shaders', true, true);
     }
   
    }
-   loadPackage({"files": [{"filename": "/resources/shaders/basic.fs", "start": 0, "end": 116, "audio": 0}, {"filename": "/resources/shaders/basic.vs", "start": 116, "end": 325, "audio": 0}], "remote_package_size": 325, "package_uuid": "d9f9a8fb-b496-4a11-be3a-5d02801bad71"});
+   loadPackage({"files": [{"filename": "/resources/shaders/basic.fs", "start": 0, "end": 116, "audio": 0}, {"filename": "/resources/shaders/basic.vs", "start": 116, "end": 324, "audio": 0}], "remote_package_size": 324, "package_uuid": "0ffe6f59-13f6-4880-aa77-a5a39c235a45"});
   
   })();
   
