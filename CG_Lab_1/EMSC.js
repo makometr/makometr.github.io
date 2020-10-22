@@ -193,7 +193,7 @@ Module['FS_createPath']('/resources', 'shaders', true, true);
     }
   
    }
-   loadPackage({"files": [{"filename": "/resources/shaders/basic.fs", "start": 0, "end": 116, "audio": 0}, {"filename": "/resources/shaders/basic.vs", "start": 116, "end": 325, "audio": 0}], "remote_package_size": 325, "package_uuid": "f2268b4b-310a-4b3d-8765-5004cb396823"});
+   loadPackage({"files": [{"filename": "/resources/shaders/basic.fs", "start": 0, "end": 116, "audio": 0}, {"filename": "/resources/shaders/basic.vs", "start": 116, "end": 325, "audio": 0}], "remote_package_size": 325, "package_uuid": "709ef129-810e-4a01-8f92-5c03c921278f"});
   
   })();
   
@@ -1479,11 +1479,11 @@ function updateGlobalBufferAndViews(buf) {
 }
 
 var STATIC_BASE = 1024,
-    STACK_BASE = 5316400,
+    STACK_BASE = 5316432,
     STACKTOP = STACK_BASE,
-    STACK_MAX = 73520,
-    DYNAMIC_BASE = 5316400,
-    DYNAMICTOP_PTR = 73360;
+    STACK_MAX = 73552,
+    DYNAMIC_BASE = 5316432,
+    DYNAMICTOP_PTR = 73392;
 
 assert(STACK_BASE % 16 === 0, 'stack must start aligned');
 assert(DYNAMIC_BASE % 16 === 0, 'heap must start aligned');
@@ -2051,7 +2051,7 @@ function window_get_inner_size(w,h){ console.log(w); HEAP32[w >> 2] = window.inn
 
 
 
-// STATICTOP = STATIC_BASE + 72496;
+// STATICTOP = STATIC_BASE + 72528;
 /* global initializers */  __ATINIT__.push({ func: function() { ___wasm_call_ctors() } });
 
 
@@ -5642,7 +5642,7 @@ function window_get_inner_size(w,h){ console.log(w); HEAP32[w >> 2] = window.inn
     }
 
   function _emscripten_get_sbrk_ptr() {
-      return 73360;
+      return 73392;
     }
 
   
