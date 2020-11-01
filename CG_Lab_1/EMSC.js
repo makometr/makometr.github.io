@@ -193,7 +193,7 @@ Module['FS_createPath']('/resources', 'shaders', true, true);
     }
   
    }
-   loadPackage({"files": [{"filename": "/resources/shaders/basic.fs", "start": 0, "end": 116, "audio": 0}, {"filename": "/resources/shaders/basic.vs", "start": 116, "end": 324, "audio": 0}, {"filename": "/resources/shaders/basic_1.fs", "start": 324, "end": 440, "audio": 0}, {"filename": "/resources/shaders/basic_1.vs", "start": 440, "end": 648, "audio": 0}], "remote_package_size": 648, "package_uuid": "949ad5c4-49de-4289-807e-f3069cbf9833"});
+   loadPackage({"files": [{"filename": "/resources/shaders/axes.vs", "start": 0, "end": 231, "audio": 0}, {"filename": "/resources/shaders/basic.fs", "start": 231, "end": 347, "audio": 0}, {"filename": "/resources/shaders/basic.vs", "start": 347, "end": 598, "audio": 0}], "remote_package_size": 598, "package_uuid": "8abaa223-2d4d-4ad7-91bc-c0e46970bef2"});
   
   })();
   
@@ -1479,11 +1479,11 @@ function updateGlobalBufferAndViews(buf) {
 }
 
 var STATIC_BASE = 1024,
-    STACK_BASE = 5316448,
+    STACK_BASE = 5318576,
     STACKTOP = STACK_BASE,
-    STACK_MAX = 73568,
-    DYNAMIC_BASE = 5316448,
-    DYNAMICTOP_PTR = 73408;
+    STACK_MAX = 75696,
+    DYNAMIC_BASE = 5318576,
+    DYNAMICTOP_PTR = 75536;
 
 assert(STACK_BASE % 16 === 0, 'stack must start aligned');
 assert(DYNAMIC_BASE % 16 === 0, 'heap must start aligned');
@@ -2051,7 +2051,7 @@ function window_get_inner_size(w,h){ console.log(w); HEAP32[w >> 2] = window.inn
 
 
 
-// STATICTOP = STATIC_BASE + 72544;
+// STATICTOP = STATIC_BASE + 74672;
 /* global initializers */  __ATINIT__.push({ func: function() { ___wasm_call_ctors() } });
 
 
@@ -5642,7 +5642,7 @@ function window_get_inner_size(w,h){ console.log(w); HEAP32[w >> 2] = window.inn
     }
 
   function _emscripten_get_sbrk_ptr() {
-      return 73408;
+      return 75536;
     }
 
   
